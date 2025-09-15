@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Personal Intelligence Platform</title>
+    <title>AI Chat Interface</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-   <style>
+    <style>
     * {
         margin: 0;
         padding: 0;
@@ -14,7 +14,7 @@
     }
 
     body {
-        background: linear-gradient(135deg, #000000, #0a0f1c, #0d1b2a);
+        background: linear-gradient(135deg, #000000,  #202020, #6a5196);
         color: #e0e0e0;
         display: flex;
         height: 100vh;
@@ -24,13 +24,14 @@
     /* Sidebar */
     .sidebar {
         width: 280px;
-        background: rgba(5, 10, 20, 0.95);
+        background: rgba(24, 24, 26, 0.95);
         padding: 20px;
         display: flex;
         flex-direction: column;
         box-shadow: 3px 0 15px rgba(0, 0, 0, 0.6);
         position: relative;
         z-index: 10;
+        transition: all 0.3s ease;
     }
 
     .logo {
@@ -39,20 +40,23 @@
         margin-bottom: 30px;
         padding-bottom: 20px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        cursor: pointer;
     }
 
     .logo-icon {
         font-size: 28px;
         margin-right: 12px;
-        color: #3b82f6;
+        color: #b388ff;
+        transition: all 0.3s ease;
     }
 
     .logo-text {
         font-size: 22px;
         font-weight: 700;
-        background: linear-gradient(45deg, #3b82f6, #60a5fa);
+        background: linear-gradient(45deg, #b388ff, #6c53ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease;
     }
 
     .nav-section {
@@ -65,88 +69,93 @@
         color: rgba(255, 255, 255, 0.5);
         letter-spacing: 1px;
         margin-bottom: 15px;
+        transition: all 0.3s ease;
     }
-/* Sidebar Nav Items - Compact Style */
-.nav-item {
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;   /* smaller height & width */
-    border-radius: 6px;  /* less rounded */
-    margin-bottom: 3px;  /* closer spacing */
-    cursor: pointer;
-    font-size: 14px;     /* smaller text */
-    transition: all 0.3s ease;
-}
 
-.nav-item:hover {
-    background: rgba(59, 130, 246, 0.15);
-}
+    /* Sidebar Nav Items - Compact Style */
+    .nav-item {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 6px;
+        margin-bottom: 3px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
 
-.nav-item.active {
-    background: rgba(59, 130, 246, 0.25);
-    box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
-}
+    .nav-item:hover {
+        background: rgba(108, 83, 255, 0.15);
+    }
 
-/* Sidebar Icons */
-.nav-icon {
-    font-size: 16px;   /* smaller icon */
-    margin-right: 10px;
-    width: 20px;       /* reduce width */
-    text-align: center;
-    color: #3b82f6;
-}
+    .nav-item.active {
+        background: rgba(108, 83, 255, 0.25);
+        box-shadow: 0 0 8px rgba(108, 83, 255, 0.3);
+    }
 
-/* Sidebar Text */
-.nav-text {
-    font-size: 14px;
-    font-weight: 500;
-}
+    /* Sidebar Icons */
+    .nav-icon {
+        font-size: 16px;
+        margin-right: 10px;
+        width: 20px;
+        text-align: center;
+        color: #b388ff;
+        transition: all 0.3s ease;
+    }
+
+    /* Sidebar Text */
+    .nav-text {
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
 
     .user-profile {
-    margin-top: auto;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    transition: all 0.3s ease;
-}
+        margin-top: auto;
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
 
-.user-profile:hover {
-    background: rgba(59, 130, 246, 0.15);
-    transform: translateY(-2px);
-}
+    .user-profile:hover {
+        background: rgba(108, 83, 255, 0.15);
+        transform: translateY(-2px);
+    }
 
-.user-avatar {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #3b82f6, #60a5fa);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    color: white;
-    margin-right: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
+    .user-avatar {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #6c53ff, #b388ff);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        margin-right: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+    }
 
-.user-info {
-    flex: 1;
-}
+    .user-info {
+        flex: 1;
+        transition: all 0.3s ease;
+    }
 
-.user-name {
-    font-weight: 600;
-    font-size: 15px;
-    margin-bottom: 3px;
-    color: #fff;
-}
+    .user-name {
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 3px;
+        color: #fff;
+    }
 
-.user-email {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.7);
-}
-
+    .user-email {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.7);
+    }
 
     /* Main Content */
     .main-content {
@@ -155,16 +164,17 @@
         flex-direction: column;
         padding: 20px;
         height: 100vh;
+        transition: all 0.3s ease;
     }
 
     .header {
-        padding: 10px 0 30px 0;
+        padding: 10px 0 20px 0;
     }
 
     .header h1 {
         font-size: 32px;
         font-weight: 700;
-        background: linear-gradient(45deg, #3b82f6, #60a5fa);
+        background: linear-gradient(45deg, #6c53ff, #b388ff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
@@ -175,7 +185,7 @@
         flex: 1;
         overflow-y: auto;
         padding: 20px;
-        background: rgba(255, 255, 255, 0.02);
+        background: rgba(255, 255, 255, 0.06);
         border-radius: 15px;
         margin-bottom: 20px;
         box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
@@ -188,14 +198,14 @@
     }
 
     .ai-message {
-        background: rgba(59, 130, 246, 0.15);
+        background: rgba(255, 255, 255, 0.08);
         padding: 15px 20px;
         border-radius: 18px 18px 18px 5px;
         align-self: flex-start;
     }
 
     .user-message {
-        background: rgba(0, 0, 0, 0.5);
+        background: #2e2e2e ;
         padding: 15px 20px;
         border-radius: 18px 18px 5px 18px;
         margin-left: auto;
@@ -238,7 +248,7 @@
     .typing-dot {
         width: 10px;
         height: 10px;
-        background: #3b82f6;
+        background: #6c53ff;
         border-radius: 50%;
         margin: 0 3px;
         animation: typingAnimation 1.4s infinite ease-in-out;
@@ -255,15 +265,15 @@
 
     .input-container {
         display: flex;
-        background: rgba(0, 0, 0, 0.6);
+        background: linear-gradient(90deg, #6c53ff, #b388ff);
         border-radius: 25px;
-        padding: 8px;
+        padding: 3px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     }
 
     .input-field {
         flex: 1;
-        background: transparent;
+        background: rgba(0, 0, 0, 0.7);
         border: none;
         padding: 15px 20px;
         color: #fff;
@@ -271,6 +281,7 @@
         resize: none;
         max-height: 150px;
         outline: none;
+        border-radius: 22px;
     }
 
     .input-field::placeholder {
@@ -278,7 +289,7 @@
     }
 
     .send-button {
-        background: linear-gradient(45deg, #3b82f6, #60a5fa);
+        background: linear-gradient(45deg, #544e5e, #6c53ff);
         border: none;
         border-radius: 50%;
         width: 50px;
@@ -288,16 +299,88 @@
         justify-content: center;
         cursor: pointer;
         transition: all 0.3s ease;
+        margin-left: 10px;
     }
 
     .send-button:hover {
         transform: scale(1.05);
-        box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+        box-shadow: 0 0 15px rgba(108, 83, 255, 0.5);
     }
 
     .send-button i {
         color: white;
         font-size: 20px;
+    }
+
+    /* Collapsed Sidebar */
+    .sidebar.collapsed {
+        width: 80px;
+        padding: 20px 10px;
+        align-items: center;
+    }
+
+    /* Hide text when collapsed */
+    .sidebar.collapsed .logo-text,
+    .sidebar.collapsed .nav-text,
+    .sidebar.collapsed .user-info,
+    .sidebar.collapsed .section-title {
+        display: none;
+    }
+
+    /* Center icons in collapsed mode */
+    .sidebar.collapsed .logo {
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .sidebar.collapsed .nav-item {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sidebar.collapsed .nav-icon {
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    /* Shrink user profile in collapsed mode */
+    .sidebar.collapsed .user-profile {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sidebar.collapsed .user-avatar {
+        margin-right: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Tooltip for collapsed sidebar items */
+    .nav-item {
+        position: relative;
+    }
+
+    .nav-item .tooltip {
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(24, 24, 26, 0.95);
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 1000;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        pointer-events: none;
+    }
+
+    .sidebar.collapsed .nav-item:hover .tooltip {
+        opacity: 1;
+        visibility: visible;
     }
 
     /* Animations */
@@ -318,70 +401,78 @@
         .logo { margin-bottom: 20px; }
         .main-content { padding: 15px; }
         .message { max-width: 90%; }
+        
+        .sidebar.collapsed {
+            width: 70px;
+            padding: 15px 8px;
+        }
     }
 
     /* Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); border-radius: 10px; }
-    ::-webkit-scrollbar-thumb { background: rgba(59, 130, 246, 0.3); border-radius: 10px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(59, 130, 246, 0.5); }
-</style>
-
+    ::-webkit-scrollbar-thumb { background: rgba(108, 83, 255, 0.3); border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(108, 83, 255, 0.5); }
+    </style>
 </head>
 <body>
-    <div class="sidebar">
-    <div class="logo">
-        <i class="fas fa-robot logo-icon"></i>
-        <span class="logo-text">AI Chat</span>
-    </div>
+    <div class="sidebar" id="sidebar">
+        <div class="logo" id="logo">
+            <i class="fas fa-robot logo-icon"></i>
+            <span class="logo-text">AI Chat</span>
+        </div>
 
-    <!-- Chat -->
-    <div class="nav-section">
-        <div class="nav-item active">
-            <i class="fas fa-comments nav-icon"></i>
-            <span class="nav-text">Chat</span>
+        <!-- Chat -->
+        <div class="nav-section">
+            <div class="nav-item active">
+                <i class="fas fa-comments nav-icon"></i>
+                <span class="nav-text">Chat</span>
+                <span class="tooltip">Chat</span>
+            </div>
         </div>
-    </div>
 
-    <div class="nav-section">
-        <div class="nav-item active">
-            <i class="fas fa-comments nav-icon"></i>
-            <span class="nav-text">History</span>
+        <div class="nav-section">
+            <div class="nav-item">
+                <i class="fas fa-history nav-icon"></i>
+                <span class="nav-text">History</span>
+                <span class="tooltip">History</span>
+            </div>
         </div>
-    </div>
 
-    <!-- Settings -->
-    <div class="nav-section">
-        <div class="nav-item">
-            <i class="fas fa-cog nav-icon"></i>
-            <span class="nav-text">Settings</span>
+        <!-- Settings -->
+        <div class="nav-section">
+            <div class="nav-item">
+                <i class="fas fa-cog nav-icon"></i>
+                <span class="nav-text">Settings</span>
+                <span class="tooltip">Settings</span>
+            </div>
         </div>
-    </div>
 
-    <!-- Help Center -->
-    <div class="nav-section">
-        <div class="nav-item">
-            <i class="fas fa-question-circle nav-icon"></i>
-            <span class="nav-text">Help Center</span>
+        <!-- Help Center -->
+        <div class="nav-section">
+            <div class="nav-item">
+                <i class="fas fa-question-circle nav-icon"></i>
+                <span class="nav-text">Help Center</span>
+                <span class="tooltip">Help Center</span>
+            </div>
         </div>
-    </div>
 
-    <!-- User Profile -->
-    <div class="user-profile">
-        <div class="user-avatar">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="user-info">
-            <div class="user-name">Maha Rehan</div>
-            <div class="user-email">maha@example.com</div>
+        <!-- User Profile -->
+        <div class="user-profile">
+            <div class="user-avatar">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="user-info">
+                <div class="user-name">Maha Rehan</div>
+                <div class="user-email">maha@example.com</div>
+            </div>
         </div>
     </div>
-</div>
 
     <!-- Main Content -->
-    <div class="main-content">
+    <div class="main-content" id="mainContent">
         <div class="header">
-            <h1>Your Personal Intelligence Platform</h1>
+            <!-- Removed the "Your Personal Intelligence Platform" label -->
         </div>
         
         <div class="chat-container" id="chatContainer">
@@ -406,7 +497,7 @@
             <div class="input-container">
                 <textarea class="input-field" id="userInput" placeholder="Type your message here..." rows="1"></textarea>
                 <button class="send-button" id="sendButton">
-                    <i class="fas fa-circle-arrow-up"></i>
+                    <i class="fas fa-paper-plane"></i>
                 </button>
             </div>
         </div>
@@ -418,6 +509,13 @@
             const userInput = document.getElementById('userInput');
             const sendButton = document.getElementById('sendButton');
             const typingIndicator = document.getElementById('typingIndicator');
+            const sidebar = document.getElementById('sidebar');
+            const logo = document.getElementById('logo');
+            
+            // Sidebar toggle functionality
+            logo.addEventListener('click', function() {
+                sidebar.classList.toggle('collapsed');
+            });
             
             // Auto-resize textarea
             userInput.addEventListener('input', function() {
