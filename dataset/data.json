@@ -1,0 +1,357 @@
+[
+  {
+    "instruction": "How does the bank ensure secure online transactions?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the grace period for credit card payments?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "How is the credit limit determined for new customers?",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain the eligibility criteria for a personal loan.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "How does the bank ensure secure online transactions?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "What are the tax benefits of recurring deposits?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Describe the penalty for early withdrawal of a term deposit.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the documentation required for a business loan application.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain anti-money laundering policies in banking.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "Explain the minimum balance requirement for a savings account.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What are the tax benefits of recurring deposits?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "Explain anti-money laundering policies in banking.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "Explain the process to dispute a fraudulent transaction.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "List the steps to reset online banking password.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the rewards program for travel credit cards.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain the minimum balance requirement for a savings account.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "List the steps to reset online banking password.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "State the annual fee for a platinum credit card.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain anti-money laundering policies in banking.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the process of reporting large transactions.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain the minimum balance requirement for a savings account.",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "How does the bank ensure secure online transactions?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "List the documents required for corporate account opening.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain the eligibility criteria for a personal loan.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "Describe the rewards program for travel credit cards.",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "What should customers do if they suspect fraudulent activity?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "List the documents required for corporate account opening.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "Describe the penalty for early withdrawal of a term deposit.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the documentation required for a business loan application.",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "Describe the process of reporting large transactions.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What are the tax benefits of recurring deposits?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "What is the grace period for credit card payments?",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "What is KYC and why is it required?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "Describe common types of phishing attacks targeting customers.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain the eligibility criteria for a personal loan.",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "State the annual fee for a platinum credit card.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain anti-money laundering policies in banking.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the documentation required for a business loan application.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "Explain the process to dispute a fraudulent transaction.",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "Explain the process to dispute a fraudulent transaction.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "How does the bank ensure secure online transactions?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "List the documents required for corporate account opening.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "How is the credit limit determined for new customers?",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "What should customers do if they suspect fraudulent activity?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the minimum credit score required for a mortgage?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the minimum credit score required for a mortgage?",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Describe the process of reporting large transactions.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "What are the tax benefits of recurring deposits?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "State the annual fee for a platinum credit card.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain the minimum balance requirement for a savings account.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "List the steps to reset online banking password.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "What is the maximum tenure for a car loan?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "How often is interest credited to savings accounts?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "Describe common types of phishing attacks targeting customers.",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "State the annual fee for a platinum credit card.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain the eligibility criteria for a personal loan.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain the eligibility criteria for a personal loan.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "How often is interest credited to savings accounts?",
+    "input": "",
+    "output": "The maximum tenure is determined by the bank's internal policies and customer risk profile."
+  },
+  {
+    "instruction": "Explain the process to dispute a fraudulent transaction.",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "What is the maximum tenure for a car loan?",
+    "input": "",
+    "output": "The process involves filling an application form, submitting ID proof, income proof, and signing agreements."
+  },
+  {
+    "instruction": "Describe the rewards program for travel credit cards.",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  },
+  {
+    "instruction": "What is the grace period for credit card payments?",
+    "input": "",
+    "output": "Interest is calculated based on daily balance and credited quarterly."
+  },
+  {
+    "instruction": "Explain the minimum balance requirement for a savings account.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "Explain two-factor authentication in online banking.",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What should customers do if they suspect fraudulent activity?",
+    "input": "",
+    "output": "Security measures include encryption, two-factor authentication, and fraud monitoring systems."
+  },
+  {
+    "instruction": "What is the interest calculation method for fixed deposits?",
+    "input": "",
+    "output": "Customers must meet eligibility criteria including stable income, good credit score, and relevant documentation."
+  }
+]

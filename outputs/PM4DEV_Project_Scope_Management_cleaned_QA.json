@@ -1,0 +1,149 @@
+[
+    {
+        "question": "What is scope creep?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "project. Project Scope Management includes the processes required to ensure that the project includes all the work required, and only the work required to complete the project successfully. Project scope management’s primary concern is with defining and controlling what is and is not included in the project. One of the leading causes for project failures is poor management of the project scope, either because the project manager did not spend enough time defining the work, there was not an agreement on the scope by stakeholders, or there was a lack of scope management which leads to adding work not authorized or budgeted to the project, this is known as scope creep. Scope creep, or the uncontrolled changes in a project's scope, is the tendency of a project to include more tasks than originally specified, which often leads to higher than planned project costs and an extension of the project end"
+        ]
+    },
+    {
+        "question": "What is the purpose of scope change management?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "date. The purpose of scope change management is to protect the viability of the approved Project Contract (or agreement) and the approved Project Logical Framework (Logframe). In other words, the Project Contract defines the overall scope of the project, and the Logframe which establish a causal link between inputs, processes, outputs, outcomes and objectives of the project. It is not possible to assume there will be no changes during the life of the project. For example, changes may come from the beneficiaries who want additional deliverables, then the initial estimates for budget, and schedule may no longer be valid. If the donor agrees to include the new work into the project scope, the project manager has the right to expect that the current budget and deadline will be modified (usually increased) to reflect this additional work. This new estimated cost, effort and duration now become the approved target. All changes"
+        ]
+    },
+    {
+        "question": "Scope management is a series of tasks and steps designed to help the project manager manage the project deliverables . The steps are:  Defining the project scope must be approved by management and the donor; this is one of the principal requirements for scope management?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "to the project scope must be approved by management and the donor; this is one of the principal requirements for scope management. This is not to say the objective of scope management is to avoid any changes to the initial agreement; development projects, due to their Project Scope Management www.pm4dev.com nature are initiated mostly on general assumptions. It is expected that as the project makes progress, additional information will lead to new insights that require the project to change its approach and its plans. The purpose of scope management is to establish a process that will allow the incorporation of changes by ensuring the changes contribute to the ultimate goal of the project, changes are agreed by stakeholders and approved by management and the donor. Scope management consists of a series of tasks and steps designed to help the project manager manage the project deliverables, the steps are:  Defining"
+        ]
+    },
+    {
+        "question": "The scope statement should include the project justification, a brief description of the project outputs and its intended benefits, a brief summary of the project major constraints, assumptions and dependencies with other projects or external initiatives and a statement of what constitutes project success?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "project stakeholders. The scope statement should include the project justification, a brief description of the project outputs and its intended benefits, a brief summary of the project major constraints, assumptions and dependencies with other projects or external initiatives and a statement of what constitutes project success. This document is used as a communications tool with all project stakeholders to ensure all have a common perception of what the projects is and what it is not, it is also used to communicate any approved changes made to the project.  The project justification describes the need that the project will satisfy or the problem it will address. For example, the increase of economic income of a target population. It also describes the communities or groups of beneficiaries that will benefit from the project outcomes and the locations were the project will work.  The brief description also summarizes the tangible outputs"
+        ]
+    },
+    {
+        "question": "Project constrains include any significant limitations imposed by the donor, the beneficiaries or local conditions .  Project dependencies are internal or external factors on which the project is dependent, such as another partner organization that will deliver services or goods that will be used by the project, for example the road reparation work a local municipality?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "of the project such as the number of beneficiaries that received a loan.  Project constrains include any significant limitations either imposed by the donor, the beneficiaries or local conditions. For example the beneficiaries may impose the project doesn’t include work during harvesting season, or that the donor requires the project to be completed by a certain date. Project Scope Management www.pm4dev.com  Project assumptions include a list of the conditions that are expected to exist for the project to be a success; conditions that are accepted as true without proof or demonstration, such as the labor contribution of the beneficiaries to complete an activity in the project.  Project dependencies are either internal or external factors on which the project is dependent, such as another partner organization that will deliver services or goods that will be used by the project, for example the road reparation work a local municipality"
+        ]
+    },
+    {
+        "question": "What is the scope change control plan used to track each element with a unique number useful for development of the project schedule?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "system used to track each element with a unique number useful for development of the project schedule. Figure 7.2 Project Work Breakdown Structure Numbering System Project Scope Change Control Plan An important component of scope management is the scope change control plan, which specifies the process to: submit any changes to the projects scope, identifies the people with responsibility to approve changes and the role of the manager to assess the implications on the schedule and budget from the requested changes. Project Scope Management www.pm4dev.com The purpose of this plan is to minimize scope creep which is the natural tendency of all projects for increasing the project scope without compensating the other project constraints. Components of this plan include:  Project Change request form. This is a form that is used to record any request for changes to the project scope coming from any project stakeholders, specially the donor or"
+        ]
+    },
+    {
+        "question": "Scope change approval. The project will determine the key stakeholders for approving any changes, such as the Donor, for changes that will affect the budget or budget, the organization management for changes that affect the strategies, methodologies or approaches the organization has identified for the organization has identified for the change?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "the beneficiaries. It records the justification for the change, the person requesting the change, date and the justification of why the change is needed.  Scope Change analysis. The analysis is done to determine the impact to the project by the change, in some cases the change may be a new activity in substitution of another activity with no impact to the schedule or budget, in other cases is the addition of activities that will increase the project budget and lengthen the schedule. No change should be included in the scope statement or WBS unless an analysis is made and an approval is obtained.  Scope change approval. The project will determine the key stakeholders for approving any changes; these include the Donor, for changes that will affect the budget or schedule, the organization management for changes that affect the strategies, methodologies or approaches the organization has identified for the"
+        ]
+    },
+    {
+        "question": "What is the next step in the scope management process?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "information or insights are gained that leads to changes to the original assumptions the project was originally designed. An efficient Scope Change Control plan should have a balance between flexibility and control. If the process is too difficult, either valuable Project Scope Management www.pm4dev.com changes will be lost or the team will ignore the rules. If the process is too easy, then many changes may be applied with insufficient thought given to their merits and consequences. ASSIGNING SCOPE WORK Once all the work needed to accomplish the project has been identified the next step in the scope management process is to assign the work to the people responsible for it. Inputs to this step include the WBS, the project schedule that identifies when each activity or task should occur, and the Resource Requirements Matrix (RRM), which identifies the skills required to accomplish the activities, this matrix us used to select"
+        ]
+    },
+    {
+        "question": "What is the scope of work assigned to the project team via the Work Assignment Sheet?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "the project team. Elements of this step include the actions to assign scope work to the project team via the Work Assignment Sheet, and assign work to consultants via the Scope of Work document; part of this process includes collect information on the work completed, get and acceptance of the work by the beneficiaries. Work Assignment Sheet All activities or tasks identified in the WBS need to be assigned to a person responsible for its deliverable. Scope of work is assigned based on the different cycles of phases of the project and follows the project schedule. A project tam member may get on a monthly or quarterly basis a list of work that needs to be accomplished during that period, these may include analysis of information, meetings with stakeholders, training session or developing a report. The assignment sheet should include the date of the assignment, the expected completion date, the"
+        ]
+    },
+    {
+        "question": "What does Scope Verification mean?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "the objectives and select a consultant to do a specific work that required skills not present in the team or organization. For more on this subject see Chapter 12 Resource Management). At the completion of the work the consultant should present a document that informs on the progress made and the results and outputs generated by the SOW. VERIFYING THE WORK This step refers to the actions required to ensure that the work delivered meets the specifications of the project and it is used as a guarantee that the project is delivering the promised quality in its work. At the end of the assignment the team members or consultants, report the activities accomplished, any deviations from the plan, changes or modifications to the activity and any information that will help update the project plan. Scope Verification Scope verification deals with obtaining the stakeholders’ formal acceptance of the completed project work"
+        ]
+    },
+    {
+        "question": "Project Scope Management www.pm4dev.com Verification comes from three sources: the project manager or project person assigned with this responsibility verifies and checks that the work planned has been delivered according to specifications; the project beneficiaries who are the ultimate judges of the quality of services or goods received by the project; and the project donor who in the project is the ultimate judge of the quality of services or goods received by the project?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "scope and the goods or services delivered. Verifying the project scope includes reviewing deliverables to ensure that each is completed satisfactorily. If the project is terminated early, the project scope verification process should establish and document the level and extent of completion. Scope verification differs from quality control in that scope verification is primarily concerned with acceptance of the deliverables, while quality management which is primarily concerned with meeting the quality requirements specified for the deliverables. Quality management is generally performed before scope verification, but these two processes can be performed in parallel. Project Scope Management www.pm4dev.com Verification comes from three sources, the project manager or project person assigned with this responsibility verifies and checks that the work planned has been delivered according to specifications; the project beneficiaries who are the ultimate judges of the quality of services or goods received by the project; and the project donor who in"
+        ]
+    },
+    {
+        "question": "What is the next step in the process of project evaluation or project audit?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "the process of project evaluation or project audit verifies once again the project deliverables. Scope verification includes activities such as inspections, measuring, examining, and verifying to determine whether work and deliverables meet requirements and product acceptance criteria. Scope verification is also called reviews, product reviews, audits, and walkthroughs. In some development sectors, such as engineering or health, these different terms have narrow and specific meanings. For example verification may include the inspection that a community health center received the equipment in the quantities and quality approved and agreed by the beneficiaries. Work Acceptance Once the scope verification confirms that the work meets the requirements of the project, the next step is to obtain acceptance of the work; work acceptance is needed in cases when the beneficiary needs to give testament that the work or activities delivered by the project were achieved as agreed, and that they met the needs of"
+        ]
+    },
+    {
+        "question": "What should the project manager do to determine the impact of the change request?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "or the donor should identify who should have formal approval of the project deliverables. A formal approval should be kept as a record of the project final evaluation or audit. Change Requests Out from the delivery of work and the verification of work, requests to change the scope may occur based on new insights gained on the project, changes in the original conditions or assumptions of the project or discovery of new opportunities. Changes are not necessarily made to correct a situation but could also include changes in approaches or strategies that will impact the project scope. Changes can originate from the project team, beneficiaries, organization’s management, or the donor. In any case the project manager should use the Project Scope Change Control Plan defined to manage the process or change request, obtain approval and incorporate and communicate the changes. The project manager first step is to quantify the impact"
+        ]
+    },
+    {
+        "question": "What is the responsibility of the project manager to asses the impact of the project?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "approve changes. Each project should have identified the people and the limits they have to approve a change. Even if the request for change comes from the donor, it is the responsibility of the project manager to asses the impact of the project. For example the donor may request a change in one of the locations the project works, but with no budget increase, the analysis Project Scope Management www.pm4dev.com may show that impact on changing location will affect the project budget. The Project Manager should pay a great deal of attention to managing scope. Allowing unauthorized changes to the scope usually means added costs, greater risks and longer duration. Many projects fail due to poor scope management. Very often it is a large number of small scope changes that do the damage, rather than the big, obvious ones. The successful Project Manager knows that rigorous scope control is essential"
+        ]
+    },
+    {
+        "question": "What should be considered a decision requiring a change in the scope of a project?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "to deliver projects on time and on budget. The decision whether to accept or reject a change would be based on a number of rules. The fundamental logic to recommend the acceptance of a change should be:  The change unavoidable, external factors uncontrollable by the project such as legal, social or economical factors require a change in the scope.  The change increase the overall benefit to the community, taking into account any impact on the costs, benefits, timescales and risks  The Project Team is able to make such a change, the skills and knowledge are in the team to successfully implement the change The Scope Change Plan defines various responsibilities and authority levels so that routine changes can be dealt with efficiently but significant changes receive due management attention. Where a proposed change affects the scope of the project it should be seen as a decision requiring"
+        ]
+    },
+    {
+        "question": "What does the project manager have the power to approve the change within certain authority limits?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "approval from the donor of the project. Where scope is not affected, it may be agreed that the Project Manager has the power to approve the change within certain authority limits. ADAPTING THE SCOPE Once changes to the project scope have been approved, the project needs to update all project plans and communicate these changes to the stakeholders and inform the way the changes will impact the project. Adapting the scope is a step whose sole function is to incorporate changes that will provide improvements to the project and increase the chances for its success. Project Scope Management www.pm4dev.com No changes to the project scope should be incorporated that do not add value and that have not been approved. Incorporate approved Scope Changes to baseline Approved change requests affecting the project scope can require modifications to the WBS and WBS dictionary, the project scope statement, and the project scope management"
+        ]
+    },
+    {
+        "question": "What is the responsibility of the project manager?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "result in an oversight to incorporate the changes in the day to day work of the project which may lead to an increase in the project risk, beneficiary dissatisfaction or donor formal complains to the organization. For every change the change request form should incorporate a list of the project plans that need to be updated and communicate, the most common plans that need to be updated are: The Scope Statement and WBS, the project schedule and the project budget. Communication of the scope changes would be directed to the people, or parties that will be most affected by the change, the communication can occur right after the approval of a change when the change has significant implications to the project or communicated in the regular communication cycles the project has established to keep all project stakeholders updated. Project Scope Management www.pm4dev.com It is responsibility of the project manager responsibility"
+        ]
+    },
+    {
+        "question": "What is the goal of the project to capture the lessons learned at the end of each phase or at the completion of a significant milestone?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "to communicate scope change status and resolution to project team members and other appropriate stakeholders through the methods established in the Communication Plan, including the project Status Report. Register Lessons Learned At the end of each project phase or at the completion of a significant milestone the project needs to capture the lessons learned in managing the project scope. This include the causes or reason why something did not went according to plans, the causes that contributed to success, and the actions the project took to deal with an issue or challenge. The idea behind is to capture the lessons right after an action and not wait until the end of the project; the project should incorporate a practice that builds a discipline and a routine to capture lessons continuously and creates spaces for the project team to reflect on the lessons and incorporate them in the next phases or"
+        ]
+    },
+    {
+        "question": "What is the name of the course that PM4DEV offers?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "cycles of the project. Project Scope Management www.pm4dev.com PM4DEV.COM Drawing from our deep understanding of the challenges and the needs for realistic solutions that can improve the way in which projects are managed and services are delivered, PM4DEV offers the only adapted Project Management Methodology for development organizations. Our services include:  Consulting, to help organizations implement a project Management methodology that will increase the impact of their interventions.  On Site Training on project management methods to increase and develop the skills of project managers  Online Learning for project managers that want to develop their own competencies on a flexible online learning environment. To get more information on these services, visit our web site at www.pm4dev.com/services or send us an email to services@pm4dev.com. We offer competitive prices and high quality material developed by international certified experts in Project Management. Effective Project Management An advanced level, hands-on course, that"
+        ]
+    },
+    {
+        "question": "What is a project design monitoring and evaluation course that will give you a complete understanding of what is project management and how it is used in development projects?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "community based organizations, Government and donor agencies, and anyone interested in a career in development project management. You will also learn the essential project management methods and techniques to deliver projects on time and within budget while meeting the expectations of key stakeholders. This course is especially designed to give you a complete understanding of what is project management and how it is used in development projects. Project Design Monitoring and Evaluation This is an introductory level course that will present the fundamentals of the DM&E Cycle of development projects, with practical applications of concepts, methods and best practices. This course will provide participants with tools, techniques and resources needed for designing, planning, organizing, monitoring and evaluating development projects. At the end of the course, participants will become familiar with the methods and tools to design, monitor and evaluate a development project. You will learn the steps required to design"
+        ]
+    },
+    {
+        "question": "What does PM4DEV offer?",
+        "answer": "Not explicitly answered.",
+        "supporting_passages": [
+            "a project using the logical framework, elements of a good project proposal and the components of an effective monitoring and evaluation plan. Find out more about our online courses at http://www.pm4dev.com/elearn.html and start build your project management skills. 20% early registration discount on all courses. Project Scope Management www.pm4dev.com The Sustainable Development Goals (SDG) aim by 2030 to end poverty, protect the planet, and ensure prosperity for all. PM4DEV is committed to provide resources and develop knowledge and expertise to support development organizations in their efforts to achieve these ambitious goals. Project Management For Development Organizations www.pm4dev.com info@pm4dev.com This Point of view provides a summary of themes, that in PM4DEV's experience, have proved critical in the successful implementation of project management methodologies. It draws on the expertise of Project management professionals and provides a guide to deliver a methodology that increases the chances of project success. For more information about"
+        ]
+    }
+]

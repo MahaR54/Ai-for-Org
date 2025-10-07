@@ -1,254 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Reset</title>
-    <style>
-        :root {
-            --primary-color: #9b59b6;
-            --dark-color: #000000;
-            --light-color: #f0f0f0;
-            --gray-color: #bbbbbb;
-            --text-color: #e0e0e0;
-            --error-color: #e74c3c;
-        }
-        
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, var(--dark-color) 0%, #2d0b3d 50%, #4a4a4a 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            color: var(--text-color);
-        }
-        
-        .reset-container {
-            background: rgba(40, 40, 40, 0.65); /* Slightly lighter for better contrast */
-            /* padding: 2rem; */
-            border-radius: 14px;
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-            /* width: 460px; More compact width */
-            border: 1px solid rgba(187, 187, 187, 0.2); /* Subtle border */
-            backdrop-filter: blur(12px) saturate(180%); /* Enhanced blur */
-   
-            /* background: rgba(30, 30, 30, 0.9); */
-            padding: 2.5rem;
-            /* border-radius: 12px; */
-            /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); */
-            width: 400px;
-            /* border: 1px solid var(--gray-color); */
-            backdrop-filter: blur(8px);
-        }
-        
-        .logo {
-            text-align: center;
-            margin-bottom: 1.8rem;
-        }
-        
-        h2 {
-            color: var(--light-color);
-            margin-bottom: 1.5rem;
-            text-align: center;
-            font-weight: 600;
-            font-size: 1.8rem;
-        }
-        
-        .input-group {
-            margin-bottom: 1.2rem;
-            position: relative;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 0.6rem;
-            color: var(--gray-color);
-            font-weight: 500;
-            font-size: 0.95rem;
-        }
-        
-        input {
-            width: 100%;
-            padding: 0.9rem;
-            background: rgba(50, 50, 50, 0.7);
-            border: 1px solid var(--gray-color);
-            border-radius: 8px;
-            font-size: 1rem;
-            color: var(--light-color);
-            transition: all 0.3s;
-        }
-        
-        input::placeholder {
-            color: var(--gray-color);
-            opacity: 0.7;
-        }
-        
-        input:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(155, 89, 182, 0.3);
-        }
-        
-        .password-strength {
-            height: 4px;
-            background: var(--gray-color);
-            border-radius: 2px;
-            margin-top: 0.5rem;
-            overflow: hidden;
-        }
-        
-        .strength-bar {
-            height: 100%;
-            width: 0%;
-            background: var(--primary-color);
-            transition: width 0.3s;
-        }
-        
-        .error-message {
-            color: var(--error-color);
-            font-size: 0.85rem;
-            margin-top: 0.3rem;
-            display: none;
-        }
-        
-        button {
-            width: 100%;
-            padding: 0.9rem;
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            margin-top: 1rem;
-            transition: all 0.3s;
-        }
-        
-        button:hover {
-            background: #8e44ad;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(155, 89, 182, 0.4);
-        }
-        
-        .back-to-login {
-            text-align: center;
-            margin-top: 1.5rem;
-            font-size: 0.9rem;
-        }
-        
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        
-        a:hover {
-            color: #8e44ad;
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Reset</title>
+  <style>
+    :root {
+      --primary: #9b59b6;
+      --primary-dark: #8e44ad;
+      --bg-dark: #1e1e1e;
+      --bg-light: rgba(40, 40, 40, 0.75);
+      --text: #f0f0f0;
+      --gray: #aaa;
+      --error: #e74c3c;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, var(--bg-dark), #2d0b3d, #4a4a4a);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text);
+    }
+
+    .reset-box {
+      width: 380px;
+      padding: 2rem;
+      background: var(--bg-light);
+      border-radius: 16px;
+      backdrop-filter: blur(12px) saturate(180%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    .input-group {
+      margin-bottom: 1rem;
+      text-align: left;
+    }
+
+    label {
+      font-size: 0.9rem;
+      color: var(--gray);
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.8rem;
+      border-radius: 8px;
+      border: 1px solid var(--gray);
+      background: rgba(50, 50, 50, 0.6);
+      color: var(--text);
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: var(--primary);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(155, 89, 182, 0.3);
+    }
+
+    .strength-bar {
+      height: 4px;
+      background: var(--gray);
+      border-radius: 2px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      width: 0%;
+      background: var(--primary);
+      transition: width 0.3s;
+    }
+
+    .error {
+      font-size: 0.8rem;
+      color: var(--error);
+      margin-top: 4px;
+      display: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.9rem;
+      background: var(--primary);
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(155, 89, 182, 0.4);
+    }
+
+    .back {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .back a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .back a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <div class="reset-container">
-        <div class="logo">
-            <!-- <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#9b59b6"/>
-                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" fill="var(--light-color)"/>
-            </svg> -->
-        </div>
-        <h2>Change Password</h2>
-        <form id="resetForm">
-            <!-- Current Password -->
-            <div class="input-group">
-                <label for="current-password">Current Password</label>
-                <input type="password" id="current-password" required placeholder="Enter your current password">
-            </div>
-            
-            <!-- New Password -->
-            <div class="input-group">
-                <label for="new-password">New Password</label>
-                <input type="password" id="new-password" required placeholder="Create new password">
-                <div class="password-strength">
-                    <div class="strength-bar" id="strength-bar"></div>
-                </div>
-                <div class="error-message" id="password-error">
-                    Password must be at least 8 characters with 1 number
-                </div>
-            </div>
-            
-            <!-- Confirm New Password -->
-            <div class="input-group">
-                <label for="confirm-password">Confirm New Password</label>
-                <input type="password" id="confirm-password" required placeholder="Re-enter new password">
-                <div class="error-message" id="confirm-error">
-                    Passwords don't match
-                </div>
-            </div>
-            
-            <button type="submit" id="submit-btn">Update Password</button>
-        </form>
-        <div class="back-to-login">
-            <a href="login.html">← Back to Login</a>
-        </div>
-    </div>
+  <div class="reset-box">
+    <h2> Change Password</h2>
+    <form id="resetForm">
+      
+      <!-- Admin Key -->
+      <div class="input-group">
+        <label for="admin-key">Admin Key (4 digits)</label>
+        <input type="password" id="admin-key" maxlength="4" required placeholder="Enter 4-digit admin key">
+        <div class="error" id="key-error">Admin key must be 4 digits</div>
+      </div>
 
-    <script>
-        const newPassword = document.getElementById('new-password');
-        const confirmPassword = document.getElementById('confirm-password');
-        const strengthBar = document.getElementById('strength-bar');
-        const passwordError = document.getElementById('password-error');
-        const confirmError = document.getElementById('confirm-error');
-        const submitBtn = document.getElementById('submit-btn');
-        
-        // Password strength checker
-        newPassword.addEventListener('input', function() {
-            const password = this.value;
-            let strength = 0;
-            
-            // Length check
-            if (password.length >= 8) strength += 30;
-            if (password.length >= 12) strength += 20;
-            
-            // Complexity checks
-            if (/[A-Z]/.test(password)) strength += 15;
-            if (/[0-9]/.test(password)) strength += 15;
-            if (/[^A-Za-z0-9]/.test(password)) strength += 20;
-            
-            strengthBar.style.width = Math.min(strength, 100) + '%';
-            
-            // Show error if weak
-            if (password.length > 0 && password.length < 8) {
-                passwordError.style.display = 'block';
-                submitBtn.disabled = true;
-            } else {
-                passwordError.style.display = 'none';
-                checkPasswordsMatch();
-            }
-        });
-        
-        // Password match checker
-        confirmPassword.addEventListener('input', checkPasswordsMatch);
-        
-        function checkPasswordsMatch() {
-            if (newPassword.value !== confirmPassword.value) {
-                confirmError.style.display = 'block';
-                submitBtn.disabled = true;
-            } else {
-                confirmError.style.display = 'none';
-                submitBtn.disabled = !(newPassword.value.length >= 8);
-            }
-        }
-        
-        // Form submission
-        document.getElementById('resetForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Password has been updated successfully!');
-            window.location.href = "login.html";
-        });
-    </script>
+      <!-- Current Password -->
+      <div class="input-group">
+        <label for="current-pass">Current Password</label>
+        <input type="password" id="current-pass" required placeholder="Enter current password">
+        <div class="error" id="current-error">Invalid current password</div>
+      </div>
+
+      <!-- New Password -->
+      <div class="input-group">
+        <label for="new-pass">New Password</label>
+        <input type="password" id="new-pass" required placeholder="Create new password">
+        <div class="strength-bar"><div class="bar" id="bar"></div></div>
+        <div class="error" id="pass-error">Password must be 8+ chars with number & special char</div>
+      </div>
+
+      <!-- Confirm -->
+      <div class="input-group">
+        <label for="confirm-pass">Confirm New Password</label>
+        <input type="password" id="confirm-pass" required placeholder="Re-enter new password">
+        <div class="error" id="confirm-error">Passwords don't match</div>
+      </div>
+
+      <button type="submit">Update Password</button>
+    </form>
+    <div class="back">
+      <a href="login.html">← Back to Login</a>
+    </div>
+  </div>
+
+  <script>
+    const adminKey = document.getElementById('admin-key');
+    const currentPass = document.getElementById('current-pass');
+    const newPass = document.getElementById('new-pass');
+    const confirmPass = document.getElementById('confirm-pass');
+    const bar = document.getElementById('bar');
+
+    const keyError = document.getElementById('key-error');
+    const currentError = document.getElementById('current-error');
+    const passError = document.getElementById('pass-error');
+    const confirmError = document.getElementById('confirm-error');
+
+    // Fake stored credentials (simulate dataset)
+    const storedAdminKey = "1234";
+    const storedPassword = "oldpass123";
+
+    // Strength check
+    newPass.addEventListener("input", () => {
+      const val = newPass.value;
+      let strength = 0;
+      if (val.length >= 8) strength += 30;
+      if (/[0-9]/.test(val)) strength += 30;
+      if (/[^A-Za-z0-9]/.test(val)) strength += 40;
+      bar.style.width = Math.min(strength, 100) + "%";
+
+      passError.style.display = (val.length >= 8 && /[0-9]/.test(val) && /[^A-Za-z0-9]/.test(val)) 
+        ? "none" : "block";
+    });
+
+    // Confirm match
+    confirmPass.addEventListener("input", () => {
+      confirmError.style.display = (confirmPass.value !== newPass.value) ? "block" : "none";
+    });
+
+    // Submit
+    document.getElementById("resetForm").addEventListener("submit", (e) => {
+      e.preventDefault();
+      let valid = true;
+
+      if (adminKey.value !== storedAdminKey) {
+        keyError.style.display = "block"; valid = false;
+      } else keyError.style.display = "none";
+
+      if (currentPass.value !== storedPassword) {
+        currentError.style.display = "block"; valid = false;
+      } else currentError.style.display = "none";
+
+      if (newPass.value !== confirmPass.value) {
+        confirmError.style.display = "block"; valid = false;
+      }
+
+      if (valid) {
+        alert("✅ Password updated successfully!");
+        window.location.href = "login.html";
+      }
+    });
+  </script>
 </body>
 </html>
